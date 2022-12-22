@@ -1,0 +1,33 @@
+{
+	"image_shape": [512, 512, 1],
+	"patch_shape": [512, 512, 1],
+	"data_path_train": "/mnt/localscratch/maastro/Ralph/bodycomposition/training.h5",
+	"data_path_val": "/mnt/localscratch/maastro/Ralph/bodycomposition/validation.h5",
+	"data_path_test": "/mnt/localscratch/maastro/Ralph/bodycomposition/testing.h5",
+
+	"patch_path": "/mnt/localscratch/maastro/Ralph/bodycomposition/training_samples",
+	"val_patch_path": "/mnt/localscratch/maastro/Ralph/bodycomposition/validation_samples",
+	"log_path": "/mnt/localscratch/maastro/Ralph/bodycomposition/logs",
+	"split": 20,
+	"number_of_patches": 15,
+	"number_of_augmentations": 2,
+	"switch_views": "False",
+	"translate": "False",
+
+	"min_bound": -200,
+	"max_bound": 200,
+	"num_classes": 4,
+	"batch_size": 1,
+	"num_steps": 100000,
+	"train_eval_step": 100,
+	"val_eval_step": 100,
+	"save_model_step": 10000,
+
+	"learning_rate": 0.001,
+	"decay_steps": 2500,
+	"decay_rate": 0.5,
+	"opt_momentum": 0.9,
+	"dropout_rate": 0.05,
+	"l2_loss": 0.001
+
+}
