@@ -3,7 +3,8 @@ import h5py
 import pydicom
 import numpy as np
 
-from caipirinha_cmdtools.lib.dicom import Dcm2Numpy, Tag2NumPy
+from barbell2.imaging.dcm2npy import Dcm2Numpy
+from barbell2.imaging.tag2npy import Tag2NumPy
 
 HOME = os.environ['HOME']
 
