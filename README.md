@@ -35,3 +35,8 @@ To convert the TAG file to NumPy do the following:
 
 Once you have the DICOM and TAG files converted to NumPy arrays, you can start building the HDF5 file as follows:
 
+# License
+This project is licensed under Creative Commons by 4.0 Public International (see LICENSE)
+
+# Final notes
+This repo does not contain the *trained* model, only the untrained network architecture. You need to train the network yourself using your own data. If you want to use the trained network to segment muscle and fat in new images, you can contact Ralph Brecheisen (r.brecheisen@maastrichtuniversity.nl) or submit a processing request by filling in the form [here](https://mosamatic.rbeesoft.nl).
